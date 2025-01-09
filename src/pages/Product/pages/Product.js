@@ -80,7 +80,7 @@ class Product extends React.Component {
                     className="btn"
                     onClick={() => this.handleAddToCart(product)}
                   >
-                    Add To Cart aaadsfwerfaer
+                    Add To Cart
                   </button>
                 </div>
               ))}
