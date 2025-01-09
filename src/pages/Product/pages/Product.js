@@ -54,7 +54,10 @@ class Product extends React.Component {
         {!isLoading ? (
           <div>
             {showAlert && (
-              <div className="alert alert-success alert-dismissible fade show" role="alert">
+              <div
+                className="alert alert-success alert-dismissible fade show"
+                role="alert"
+              >
                 Product added to cart
                 <button
                   type="button"
@@ -77,7 +80,7 @@ class Product extends React.Component {
                     className="btn"
                     onClick={() => this.handleAddToCart(product)}
                   >
-                    Add To Cart
+                    Add To Cart aaadsfwerfaer
                   </button>
                 </div>
               ))}
